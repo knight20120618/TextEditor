@@ -14,7 +14,7 @@
         <Button x:Name="btnBold" Content="B" HorizontalAlignment="Left" Margin="488,61,0,0" VerticalAlignment="Top" Width="75" FontWeight="Bold" Click="btnBold_Click"/>
         <Button x:Name="btnItalic" Content="I" HorizontalAlignment="Left" Margin="568,61,0,0" VerticalAlignment="Top" Width="75" FontStyle="Italic" FontWeight="Bold" Click="btnItalic_Click"/>
         <Button x:Name="btnUnderline" Content="U" HorizontalAlignment="Left" Margin="648,61,0,0" VerticalAlignment="Top" Width="75" FontWeight="Bold" Click="btnUnderline_Click"/>
-        <RichTextBox x:Name="rtbText" HorizontalAlignment="Left" Height="276" Margin="78,101,0,0" VerticalAlignment="Top" Width="645">
+        <RichTextBox x:Name="rtbText" HorizontalAlignment="Left" Height="276" Margin="78,101,0,0" VerticalAlignment="Top" Width="645" SelectionChanged="rtbText_SelectionChanged" LostFocus="rtbText_LostFocus">
             <FlowDocument>
                 <Paragraph>
                     <Run Text="RichTextBox"/>
